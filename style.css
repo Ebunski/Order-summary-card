@@ -4,10 +4,15 @@
     box-sizing: border-box;
     font-family: sans-serif ,"Red Hat Display";
 }
+h1,h2,h3{
+    margin: 0;
+}
+
 section{
     min-height: 100vh;
     position: relative;
     font-size: 16px;
+    text-align: center;
 }
 .container{
     position: relative;
@@ -19,13 +24,13 @@ section{
     background-image: url('images/pattern-background-desktop.svg');
     background-repeat: no-repeat;
     background-size: 100% 50%;
-     background-color: hsl(225, 100%, 94%);
-    padding: 40px;
+    background-color: hsl(225, 100%, 94%);
+    padding: 30px;
 }
 
 .card{
     position: relative;
-    width: 450px;
+    max-width: 450px; 
     background-color: #fff;
     border-radius: 20px;
     overflow: hidden;
@@ -33,7 +38,7 @@ section{
 
 }
 .hero{
-    height: 220px;
+    max-height: 220px;  
     width: 100%;
 }
 .summary{
@@ -42,78 +47,64 @@ section{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 25px 50px;
+    padding: 30px 50px;
 }
-.summary .text{
-    text-align: center;
+.summary .textbox > p{
     line-height: 1.5;
     color: hsl(224, 23%, 55%);
+    padding: 15px 0;
 }
-.summary .text h2{
-    padding: 10px 0px;
-    font-weight: 700;
+.summary .textbox h2{
+    font-weight: 900;
     color:  hsl(223, 47%, 23%);
 }
 .plan{
     position: relative;
     width: 100%;
-    padding: 20px;
     display: flex;
     flex-direction: row;
-    align-items: start;
+    align-items: center;
     justify-content: space-between;
-    background-color:   hsl(225, 100%, 98%);
+    background-color: hsl(225, 100%, 98%);
     border-radius: 10px;
-    margin: 15px 0;
+    padding: 20px;
 }
 .plan h3{
-    font-weight: 500;
     color: hsl(223, 47%, 23%);
-}
-.plan p{
-    color: hsl(225, 100%, 98%);
-    font-size: 12px;
-}
-
-.plan option{
-    width: 100%;
-}
-.plan .option_icon, .option_text{
-    width: 50%;
-    float: left;
-   
-}
-.plan .option_text{
-    font-size: 0.9em;
-    padding-right: 10px;
-    line-height: 1.4;
-    color: hsl(224, 23%, 55%);
-}
-.plan .option_text h3{
+    font-size: 1em;
     font-weight: 600;
 }
-.plan .option a{
+
+.plan .text{
+    margin-left: -60px;
+    font-size: 1em;
+    padding-right: 10px;
+    line-height: 1.5;
+    color: hsl(224, 23%, 55%);
+    text-align: left;
+    
+}
+.plan a{
     font-size: 0.8em;
     font-weight: 600;
 }
-.plan .option a:hover{
-opacity: 0.6;
-}
+.plan a:hover{
+    opacity: 0.6;
+} 
 
 
 .payment{
-    position: relative;
     width: 100%;
     text-align: center;
 }
 .payment .pay{
-    position: relative;
     width: 100%;
     background-color: hsl(245, 75%, 52%);
     padding: 14px 0px;
     margin: 15px 0px;
     border-radius: 10px;
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    margin: 20px 0px;
 }
 .payment .pay:hover{
     opacity: 0.6;
@@ -122,7 +113,7 @@ opacity: 0.6;
     color: #fff;
 }
 .payment .cancel{
-    margin: 20px 0px;
+    
 }
 .payment .cancel a, .pay a{
     color:  hsl(224, 23%, 55%);
@@ -133,9 +124,21 @@ opacity: 0.6;
 .payment .cancel a:hover{
    color: hsl(223, 47%, 23%);
 }
-@media screen and (max-width: 767px){
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+@media screen and (max-width: 480px){
 
     .container{
         background-image: url('images/pattern-background-mobile.svg');
     }
+    .plan .text{
+        margin-left: 0px;
+    }
 }
+
+
+
+
+
