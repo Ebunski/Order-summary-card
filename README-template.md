@@ -48,6 +48,7 @@ My first project on frontendmentor. Took me about 5hours because i wanted it to 
 - using em in place of px
 - double background and image background
 - color scheme and coherence
+- GitHub
 
 
 ### Useful resources
