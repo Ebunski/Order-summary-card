@@ -31,6 +31,8 @@ Users should be able to:
 ![](./screenshot/desktop.png); 
 (./screenshot/mobile.png)
 
+##Links
+Live site : https://ebunski.github.io/my-first-project/
 
 ## My process
 My first project on frontendmentor. Took me about 5hours because i wanted it to be perfect and kept running into troubles.
@@ -56,10 +58,11 @@ My first project on frontendmentor. Took me about 5hours because i wanted it to 
 
 ## Author
 
-- Website - [Oyebola Ebunoluwa](coming soon...)
-- Frontend Mentor - [@Ebunski](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@Ebunski](https://www.twitter.com/yourusername)
-
+- Website - [coming soon..]
+- Frontend Mentor - [@Ebunski](https://www.frontendmentor.io/profile/Ebunski)
+- Twitter - [@Ebunski](https://www.twitter.com/Ebunski)
+- Linkedin - Ebunoluwa Oyebola.
+- Email: ebunoyebola03@gmail.com
 
 ## Acknowledgments
 My thanks goes to my dad for supporting me and to a good friend and partner "chester" for giving me the push i needed to create this project.
