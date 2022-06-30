@@ -26,11 +26,6 @@ Users should be able to:
 
 - See hover states for interactive elements
 
-### Screenshot
-
-![](./screenshot/desktop.png); 
-(./images/Screenshot_2022-06-30-01-15-06-114_com.android.chrome.jpg)
-
 ### Links
 Live site : https://ebunski.github.io/my-first-project/
 
