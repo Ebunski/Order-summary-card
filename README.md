@@ -29,7 +29,7 @@ Users should be able to:
 ### Screenshot
 
 ![](./screenshot/desktop.png); 
-Mobile: ./images/Screenshot_2022-06-30-01-15-06-114_com.android.chrome.jpg
+(./images/Screenshot_2022-06-30-01-15-06-114_com.android.chrome.jpg)
 
 ### Links
 Live site : https://ebunski.github.io/my-first-project/
