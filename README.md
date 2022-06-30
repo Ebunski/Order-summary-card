@@ -56,7 +56,7 @@ My first project on frontendmentor. Took me about 5hours because i wanted it to 
 - Website - [coming soon..]
 - Frontend Mentor - [@Ebunski](https://www.frontendmentor.io/profile/Ebunski)
 - Twitter - [@Ebunski](https://www.twitter.com/Ebunski)
-- Linkedin - Ebunoluwa Oyebola.
+- Linkedin - @Ebunoluwa Oyebola.
 - Email: ebunoyebola03@gmail.com
 
 ## Acknowledgments
