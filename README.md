@@ -29,9 +29,9 @@ Users should be able to:
 ### Screenshot
 
 ![](./screenshot/desktop.png); 
-(./screenshot/mobile.png)
+Mobile: ./Screenshot_2022-06-30-01-15-06-114_com.android.chrome.jpg
 
-##Links
+### Links
 Live site : https://ebunski.github.io/my-first-project/
 
 ## My process
