@@ -27,7 +27,7 @@ Users should be able to:
 - See hover states for interactive elements
 
 ### Links
-Live site :
+Live site : https://ebunski.github.io/Order-summary-card/
 
 ## My process
 My first project on frontendmentor. Took me about 5hours because i wanted it to be perfect and kept running into troubles.
